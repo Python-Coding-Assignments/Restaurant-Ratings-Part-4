@@ -33,8 +33,8 @@ def addRestaurant(restaurants):
 
     #for loop which iterates over each element of the list restaurants
     for i in range(0, len(restaurants)):
-        #conditional statement which checks if the new instance of Restaurant is the same as an already existing instance of Restaurant
-        if newRestaurant == restaurants[i]:
+        #conditional statement which checks if the new instance of Restaurant has the same website name as an already existing instance of Restaurant
+        if newRestaurant.getWebsite() == restaurants[i].getWebsite():
             counter += 1
 
     #conditional statement which checks if value of counter is equal to zero
