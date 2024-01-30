@@ -42,3 +42,7 @@ def addRestaurant(restaurants):
         #appending it to list of existing restaurants
         restaurants.append(newRestaurant)   
         print("Restaurant added successfully.\n")     
+
+    #conditional statement which checks if value of counter is not equal to zero
+    else:
+        print("Restaurant already exists.\n")   
